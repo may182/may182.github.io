@@ -81,3 +81,22 @@
          float: right;
      }
 /* End header area */
+
+/*  From Global File*/
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    height: 3rem;
+    margin-right: 10px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+.button.primary-button{
+    background-color:rgb(163, 165, 149) ;
+    font-weight: 800;
+    text-decoration: none;
+}
+.button.primary-button:hover{
+    background: var(--gradient-color);
+}
