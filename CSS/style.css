@@ -33,6 +33,7 @@
         background-clip: text;
     }
     .headerclass .main-menu .navbar-nav .active a:hover{
+        cursor:pointer;
         background: var(--gradient-color);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
