@@ -1,0 +1,83 @@
+/* import font family */
+@import url(./fonts.css);
+
+/* CSS VARIABLES */
+@import url(./variables.css);
+
+/* Global title-text */
+@import url(./partial/_global.css);
+
+/* Header area */
+    .headerclass .main-menu .navbar .navbar-brand{
+      
+        padding: 0 2rem 0 2rem;
+    }
+    .headerclass .main-menu .navbar{
+        
+       
+        text-transform: uppercase;
+        font-family: var(--roboto);
+        font-weight: 900;
+        /* Shorthand for font */
+        /* font:normal 900 1.5px/2px var(--roboto); */
+        
+        padding: 1rem 2rem;
+    }
+    .mr-auto{
+        padding-right: 650px;
+    }
+    .headerclass .main-menu .navbar-nav .active a{
+        background: var(--gradient-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .headerclass .main-menu .navbar-nav .active a:hover{
+        background: var(--gradient-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    /* .bannerimg{
+        /* position: fixed; */
+        /* margin: 0% 25% 70% 60%; */
+        /* display: flex;
+        height: 500px;
+        width: 450px; */
+    /* } */ 
+     .title6 h3{
+         display: flex;
+         /* height: 10px; */
+         font-weight: 500;
+         padding-top: 8%;
+
+     }
+     .title6 h3::after{
+         content: "";
+         height: 2px;
+         width: 18vw;
+         background: black;
+         display: inline-block;
+
+         margin-left: 5%;
+         transform: translateY(60px);
+     }
+     .title6 h1{
+        font-size: 3.5rem;
+        
+     }
+     .title6 h4{
+         font-size: 1.5rem;
+     }
+     .bannerimg{
+         position: relative;
+         margin-left: 56%;
+         margin-right: 10%;
+         margin-top: -36%;
+         padding:7rem 0;
+         width: 40rem;
+     }
+     .img-fluid{
+         float: right;
+     }
+/* End header area */

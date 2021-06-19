@@ -1,0 +1,17 @@
+
+html, body{
+ margin: 0%;
+ box-sizing: border-box;
+}
+:root{
+    --primarycolor: rgb(47, 94, 95);
+    --primarycolor2: rgb(66, 31, 66);
+    --title-color:black;
+    --text-color: grey;
+    --border-color: maroon;
+    --gradient-color:linear-gradient(90deg,rgb(250,65,90) 0%,rgb(0,90,150) 100%);
+
+    /* Font family */
+    --roboto:"openme",cursive;
+
+}

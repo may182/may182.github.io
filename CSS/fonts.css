@@ -1,0 +1,5 @@
+/* Creating font face */
+@font-face {
+    font-family: openme;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
