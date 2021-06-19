@@ -33,7 +33,7 @@
         background-clip: text;
     }
     .headerclass .main-menu .navbar-nav .active a:hover{
-        cursor:pointer;
+/*         cursor:pointer; */
         background: var(--gradient-color);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -81,6 +81,9 @@
      .img-fluid{
          float: right;
      }
+    .navbar-nav a:hover{
+    cursor:pointer;
+}
 /* End header area */
 
 /*  From Global File*/
